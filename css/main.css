@@ -3,10 +3,11 @@
     --primary-color: #34Cb79;
 }
 
-/*Seletor Geral:*/
+/*Seletor Geral --- Todos:*/
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html{
