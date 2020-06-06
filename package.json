@@ -1,0 +1,23 @@
+{
+  "name": "NWL_HTML_CSS_JAVASCRIPT",
+  "version": "1.0.0",
+  "description": "Projeto com tutela da Rockeseat de Front e Back End. Nome do Projeto: Ecoleta",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruann-01/NWL_HTML_CSS_JAVASCRIPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruann-01/NWL_HTML_CSS_JAVASCRIPT/issues"
+  },
+  "homepage": "https://github.com/Ruann-01/NWL_HTML_CSS_JAVASCRIPT#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
