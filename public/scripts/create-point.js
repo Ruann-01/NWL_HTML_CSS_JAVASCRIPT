@@ -68,10 +68,10 @@ function handleSelectedItem(event){
 
 
     const itemId = itemLI.dataset.id
-
+    //console.log('Item:',itemId)
     //verificar se existem itens selecionados, se sim, pegar os itens selecionados
     const alreadySelected = selectedItens.findIndex( item => {
-        const itemFound = item === itemId
+        const itemFound = item == itemId
         return itemFound
     })
 
@@ -86,7 +86,7 @@ function handleSelectedItem(event){
         //se não estiver selecionado, adiciona a seleção
         selectedItens.push(itemId)
     }
-
+    //console.log('SelectedItens:',selectedItens)
     //atualizar o campo escondido com os dados selecionado
     collectedItens.value = selectedItens
 }
