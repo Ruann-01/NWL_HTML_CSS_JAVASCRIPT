@@ -90,3 +90,15 @@
 #model.hide{
     display: none;
 }
+
+/*Para o model point-created*/
+#model.point .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#model.point h1{
+    color: white;
+    margin-top: 32px;
+}
